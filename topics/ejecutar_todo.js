@@ -1,3 +1,15 @@
+//var paths= ['about_asserts.js', 'about_operators.js', 'about_equality.js', 'about_truthyness.js', 'about_assignment.js', ]
+
+var paths= ['asserts', 'operators', 'equality', 'truthyness', 'assignment', 'control_structures', 'strings', 'numbers', 'objects', 'arrays', 'reflection', 'prototype_chain', 'prototypal_inheritance', 'functions_and_closure', 'this', 'scope', 'regular_expressions'];
+
+var funcion;
+
+paths.forEach((nombre) => {
+    funcion= require('./about_'+nombre+'.js');
+    funcion();
+});
+//console.log("termine");
+/*
 var funcion= require('./about_asserts.js')
 funcion()
 funcion= require('./about_operators.js')
@@ -31,4 +43,4 @@ funcion()
 funcion= require('./about_scope.js')
 funcion()
 funcion= require('./about_regular_expressions.js')
-funcion()
+funcion()*/

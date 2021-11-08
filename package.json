@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./",
     "koans": "",
-    "ejecutar": "node ./topics/*.js"
+    "ejecutar": "node ./topics/ejecutar_todo.js"
   },
   "repository": {
     "type": "git",
